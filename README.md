@@ -3,9 +3,10 @@
 A self project which is used for learning JEST
 
 <br>
+
 ## 1. Color-button app
 
-    A simple app which changes color of a button for simple testing purpose
+> A simple app which changes color of a button for simple testing purpose
 
 - Write simple tests using `screen`, `getByRole`, `fireEvent`
 - Asset using `expect`
@@ -14,9 +15,10 @@ A self project which is used for learning JEST
 
 ## 2. Ice-cream app
 
-    A more complex app which allows to order ice-creams and show order summary with **Thank you** screen
+> A more complex app which allows to order ice-creams and show order summary with **Thank you** screen
 
 <br>
+
 ## Installation
 
 <br>
