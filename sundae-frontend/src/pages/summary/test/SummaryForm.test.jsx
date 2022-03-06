@@ -1,4 +1,5 @@
-import { fireEvent, render, screen } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import SummaryForm from "../SummaryForm";
 
 test("Initial state", () => {
@@ -18,9 +19,15 @@ test("Checkbox disables button on first click and enables on second click", () =
   });
   const confirmBtn = screen.getByRole("button", { name: /Confirm orders/i });
 
-  fireEvent.click(cbElement);
+  userEvent.click(cbElement);
   expect(confirmBtn).toBeEnabled();
 
-  fireEvent.click(cbElement);
+  userEvent.click(cbElement);
   expect(confirmBtn).toBeDisabled();
+});
+
+test("popover responds to hover", () => {
+  // popover starts out hidden
+  // popover appears upon mouseover of checkbox label
+  // popover disappears when we mouse out
 });
