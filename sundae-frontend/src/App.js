@@ -4,13 +4,11 @@ import OrderEntry from './pages/entry/OrderEntry';
 
 function App() {
   return (
-    <Container>
-      <OrderDetailsProvider>
-        {/* Summary page and entry page need provider */}
+    <OrderDetailsProvider>
+      <Container>
         <OrderEntry />
-      </OrderDetailsProvider>
-      {/* Confirmation page does not need provider */}
-    </Container>
+      </Container>
+    </OrderDetailsProvider>
   );
 }
 
