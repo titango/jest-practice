@@ -15,7 +15,10 @@ A self project which is used for learning JEST
 
 ## 2. Ice-cream app
 
-> A more complex app which allows to order ice-creams and show order summary with **Thank you** screen
+> A more complex app which allows to order ice-creams and show order summary with **Thank you** 
+
+- Setup server
+- Write more complex tests
 
 <br>
 
